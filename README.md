@@ -135,27 +135,27 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
   https://github.com/suthish777/global-summit.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
+
 Example command:
 
 ```sh
   cd my-project
   npm install
 ```
---->
+
 
 ### Usage
 
