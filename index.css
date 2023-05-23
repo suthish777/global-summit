@@ -175,10 +175,6 @@ body {
 
   /* Speakers section Ends Here */
 
-  .partners {
-    display: none;
-  }
-
   /* Footer Starts Here */
   .footer__logo img {
     content: url(./assets/Logopit_dark.png);
