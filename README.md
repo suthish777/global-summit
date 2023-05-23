@@ -160,7 +160,9 @@ npx hint .
 
 You can deploy this project using:
 
+```Deploy 
 Deploy the project through Github pages
+
 ```
  
 
