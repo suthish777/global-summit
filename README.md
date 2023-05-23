@@ -160,9 +160,7 @@ npx hint .
 
 You can deploy this project using:
 
-
-```sh
-git clone https://github.com/suthish777/global-summit.git
+Deploy the project through Github pages
 ```
  
 
