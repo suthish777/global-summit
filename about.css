@@ -71,9 +71,10 @@ body {
 
 /* Past Summits Section Starts Here */
 .past-summits {
-  background-color: white;
-  text-align: center;
-  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .past-summits h3 {
@@ -95,7 +96,7 @@ body {
 }
 
 .past-summit-bg {
-  display: block;
+  display: flex;
   width: 100%;
   height: auto;
 }
@@ -160,20 +161,9 @@ body {
 
   /* Logo Selection Ends Here */
 
-  /* Past Summits Section Starts Here */
-
-  .past-summits-container {
-    width: 70%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  /* Past Summits Section Ends Here */
-
   /* Footer Starts Here */
   .footer__logo img {
-    content: url(./assets/logo-light.png);
+    content: url(./assets/Logopit_dark.png);
   }
 
   /* Footer Ends Here */
