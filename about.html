@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/06d805300f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="style.css">
     <title>Globle summit</title>
@@ -11,14 +12,36 @@
 <body>
     <!-- Header section starts-->
     <header>
-        <img src="./assets/mobile-menu.png" alt="">
+        <img id="menu-icon" class="menu-icon" src="./assets/mobile-menu.png" alt="">
+        <ul class="header-head">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+
+        <nav id="navbar" class="header-body">
+            <i id="mobile-menu-close-icon" class="mobile-menu-close-icon fa-solid fa-x"></i>
+            <a class="logo" href="index.html"><img src="./assets/Logopit_1684831391238.png" alt="logo"></a>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Programe</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Sponsor</a></li>
+                <li><a href="">News</a></li>
+                <li><a href=""><button class="header-btn">CC Campaign</button></a></li>
+            </ul>
+        </nav>
     </header>
     <!--Header section ends-->
+
+    <main>
 
      <!-- Headline Section Starst Here -->
      <section class="headline">
         <h6 class="headline__greetings-heading">"Hello! Sharing world"</h6>
-        <h1  class="headline__main-heading">Tech Summit 2023</h1>
+        <h1  class="headline__main-heading">Global Tech Summit 2023</h1>
         <p class="headline-description">The Global Summit brings together the community of  
             experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
             This year, we hope to expand our invitation list including organizations and individuals.</p>
@@ -30,11 +53,11 @@
      <!-- Logo Selection Section Starts Here -->
     <!--  -->
     <section class="logo-selection">
-        <h3>Tech Summit 2023 Logo</h3>
+        <h3>Global Tech Summit 2023 Logo</h3>
         <hr>
         <p>The logo of Tech Summit 2023 was decided through logo competition from 7. July - 12. July</p>
         <div class="logo-selection__logo">
-            <img src="./assets/logo.png" alt="">
+            <img src="./assets/Logopit_1684831391238.png" alt="">
         </div>
     </section>
     <hr class="hr-full">
@@ -77,16 +100,24 @@
     </section>
     <!-- Partners Section Ends Here -->
 
+</main>
+
      <!-- Footer Section Starts Here -->
      <footer>
         <div class="footer__logo">
-            <img src="./assets/cck-logo1.png" alt="logo">
+            <img src="./assets/Logopit_dark.png" alt="logo">
         </div>
         <div class="footer-body">
-            <h6 class="footer-body__heading">2015 Creative commons Korea, Some Rights Reserved</h6>
+            <h6 class="footer-body__heading">2023 Global Tech India, Some Rights Reserved</h6>
             <!-- <p class="footer-body__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error asperiores nemo sint ipsa suscipit animi.</p> -->
         </div>
     </footer>
     <!-- Footer Section Ends Here -->
+
+    <!-- JavaScript Souces Starts -->
+    <script src="menu.js"></script>
+    <!-- JavaScript Souces Ends -->
+
 </body>
+
 </html>
