@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 <!--
@@ -63,33 +62,18 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Global summit capstone project] <a name="about-project"></a>
 
 
-**[Global summit capstone project]** is a... capstone project and web designe...
+**[Global summit capstone project]** is a... capstone project and web designe of global summit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.com">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
   </ul>
 </details>
 
@@ -109,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://suthish777.github.io/global-summit/)
+- [Live Demo Link](https://suthish777.github.io/global-summit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,39 +108,36 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+
 
 ```sh
- gem install rails
+ install git
 ```
- -->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+
 
 ```sh
   cd my-folder
   https://github.com/suthish777/global-summit.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+
 
 ```sh
   cd my-project
   npm install
 ```
---->
+
 
 ### Usage
 
@@ -186,13 +167,11 @@ Example command:
 
 You can deploy this project using:
 
-<!--
-Example:
 
 ```sh
-
+git clone https://github.com/suthish777/global-summit.git
 ```
- -->
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -246,7 +225,7 @@ If you like this project...Please give me star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank... Cindy Shin in Behance and also Microverse for this innitiative.
+I would like to thank... I would like to express my gratitude to microverse for the training. Additionally, I would like to give proper recognition to Cindy Shin the author of the original design. Furthermore, credit is due to Pixels and Flaticons for providing the captivating images and icons, respectively.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,5 +252,3 @@ This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-=======
-# global-summit
