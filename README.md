@@ -29,7 +29,6 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -62,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Global summit capstone project] <a name="about-project"></a>
 
 
-**[Global summit capstone project]** is a... capstone project and web designe of global summit.
+**[Global summit capstone project]** The [Global summit capstone project] is a web design project that serves as the culmination of a global summit. A capstone project typically refers to a final project, The purpose of the website is to provide relevant information about the summit, including its objectives, agenda, speakers, participants, and any other pertinent details.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -143,25 +142,19 @@ Install this project with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
+```ssh
+1. open the index using live server 
+2. you can see it in the browser
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+```test
+npx eslint .
+npx hint .
 ```
---->
 
 ### Deployment
 
@@ -225,7 +218,7 @@ If you like this project...Please give me star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank... I would like to express my gratitude to microverse for the training. Additionally, I would like to give proper recognition to Cindy Shin the author of the original design. Furthermore, credit is due to Pixels and Flaticons for providing the captivating images and icons, respectively. https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+I would like to express my gratitude to microverse for the training. Additionally, I would like to give proper recognition to <a href="https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>. Furthermore, credit is due to <a href="https://www.pexels.com/">Pixels</a> and <a href="flaticon.com/">Flaticons</a> for providing the captivating images and icons, respectively.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
