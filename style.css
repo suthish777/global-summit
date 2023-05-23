@@ -129,7 +129,7 @@ section {
 
 /* Headline Styles Starts Here */
 .headline {
-  width: 100%;
+  width: auto;
   height: auto;
   margin: 2em 0;
 }
@@ -161,10 +161,12 @@ section {
 }
 
 .headline-description {
+  display: flex;
+  box-sizing: border-box;
   padding: 1em;
   margin: 1.5em 1em;
-  background-color: var(--color-tertiary);
-  border: 3px solid white;
+  background: #f8f8f8;
+  border: 8.49673px solid #ffff;
   font-weight: 700;
 }
 
@@ -269,6 +271,7 @@ footer {
   .header-body {
     margin: auto;
     width: 80%;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -304,16 +307,12 @@ footer {
   /* Header Styles Ends Here */
 
   /* Partners section Starts Here */
-  .partners {
-    display: none;
-  }
 
   /* Partners section Ends Here */
 
   /* Footer Starts Here */
   footer {
-    background-color: var(--color-primary);
-    color: white;
+    color: #f2f2f2;
     padding: 4em 10%;
     grid-template-columns: 1fr 2fr;
     gap: 1em;
@@ -325,11 +324,13 @@ footer {
 
   .footer-body__heading {
     text-align: left;
+    color: #000;
   }
 
   .footer-body__description {
     margin-top: 0.5em;
     display: block;
+    color: #000;
   }
 
   /* Footer Ends Here */
