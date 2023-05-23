@@ -41,6 +41,7 @@ body {
 .logo-selection {
   padding: 3em 2em;
   text-align: center;
+  background-color: white;
 }
 
 .logo-selection h3 {
@@ -58,7 +59,7 @@ body {
   width: 100%;
   margin-top: 3em;
   padding: 2em;
-  border: 3px solid var(--color-primary-light);
+  border: 1.5px solid var(--color-primary-light);
 }
 
 .hr-full {
@@ -69,8 +70,8 @@ body {
 /* Logo Selection Section Ends Here */
 
 /* Past Summits Section Starts Here */
-
 .past-summits {
+  background-color: white;
   text-align: center;
   padding: 3em 0;
 }
@@ -88,8 +89,9 @@ body {
 
 .past-summit-container {
   position: relative;
-  width: 90%;
-  margin: 1em 0;
+  margin: 1em 2em;
+  min-height: 9.0625em;
+  min-width: 16.5625em;
 }
 
 .past-summit-bg {
@@ -128,3 +130,51 @@ body {
 }
 
 /* Past Summits Section Ends Here */
+
+@media only screen and (min-width: 768px) {
+  /* Headline Starts Here */
+  .headline {
+    width: 70%;
+    margin: auto;
+  }
+
+  .headline__greetings-heading {
+    display: none;
+  }
+
+  /* Headline Ends Here */
+
+  /* Logo Selection Starts Here */
+  .logo-selection {
+    margin: 2em 0;
+  }
+
+  .logo-selection__logo {
+    width: auto;
+    padding: 2em 3em;
+  }
+
+  .logo-selection p {
+    width: 70%;
+  }
+
+  /* Logo Selection Ends Here */
+
+  /* Past Summits Section Starts Here */
+
+  .past-summits-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Past Summits Section Ends Here */
+
+  /* Footer Starts Here */
+  .footer__logo img {
+    content: url(./assets/logo-light.png);
+  }
+
+  /* Footer Ends Here */
+}
