@@ -225,7 +225,7 @@ If you like this project...Please give me star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank... I would like to express my gratitude to microverse for the training. Additionally, I would like to give proper recognition to Cindy Shin the author of the original design. Furthermore, credit is due to Pixels and Flaticons for providing the captivating images and icons, respectively.
+I would like to thank... I would like to express my gratitude to microverse for the training. Additionally, I would like to give proper recognition to Cindy Shin the author of the original design. Furthermore, credit is due to Pixels and Flaticons for providing the captivating images and icons, respectively. https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
